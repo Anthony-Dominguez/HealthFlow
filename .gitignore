@@ -1,0 +1,130 @@
+# Environment variables
+.env
+.env.local
+.env.production
+.env.*.local
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# pytest
+.pytest_cache/
+.coverage
+htmlcov/
+*.cover
+.hypothesis/
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+.npm
+
+# Next.js
+frontend/.next/
+frontend/out/
+frontend/build
+frontend/.vercel
+
+# TypeScript
+*.tsbuildinfo
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Docker
+*.log
+docker-compose.override.yml
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Uploads and storage
+uploads/
+storage/
+documents/
+temp/
+
+# Logs
+logs/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Backup files
+*.bak
+*.backup
+*.tmp
+
+# Secrets
+secrets/
+*.pem
+*.key
+*.crt
+credentials.json
+.mcp.json
+
+# Claude Code
+.claude/
+
+# Reference projects (not part of this repo)
+Lavoe/
+
+# Screenshots with potentially sensitive data
+CleanShot*
+
+# Alembic
+alembic/versions/*_*.py
+!alembic/versions/README
+
+# Redis dumps
+dump.rdb
+
+# Coverage reports
+coverage/
+.nyc_output/
+
+# Build artifacts
+*.tar.gz
+*.zip
+
+# Local testing
+.local/
+test-results/
+playwright-report/

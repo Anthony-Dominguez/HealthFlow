@@ -1,0 +1,36 @@
+# Core Framework
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+python-multipart==0.0.20
+
+# Database
+sqlalchemy==2.0.36
+asyncpg==0.30.0
+alembic==1.14.0
+
+# Supabase
+supabase==2.3.4
+postgrest==0.13.2
+
+# Pydantic
+pydantic==2.10.4
+pydantic-settings==2.8.0
+email-validator==2.2.0
+
+# Authentication & Security
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+bcrypt==4.1.2
+
+# Vector Database
+pgvector==0.2.4
+
+# HTTP Client
+httpx<0.26
+
+# Utilities
+python-dotenv==1.0.0
+python-dateutil==2.8.2
+
+# Logging
+python-json-logger==2.0.7
